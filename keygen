@@ -1,0 +1,5 @@
+Generate public and private keys:
+ssh-keygen -t rsa -b 4096 -C "mounmeenakshi@iucaa.in"
+
+Copy the public key on the .ssh/authorized_keys file in the server you want to access without password.
+chmod 600 authorized keys && chmod 700 .ssh
